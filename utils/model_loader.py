@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from typing import Literal, Optional, Any
 from pydantic import BaseModel, Field
-from utils.config_loader import load_config
+from utils.configuration_loader import load_config
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
